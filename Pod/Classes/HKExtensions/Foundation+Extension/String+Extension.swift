@@ -24,7 +24,7 @@ extension String {
         return (self as NSString).floatValue
     }
     
-    static var hk_uniqueGUID:String {
+    public static var hk_uniqueGUID:String {
         get {
             return UUID().uuidString
         }
@@ -102,8 +102,6 @@ extension String {
         let regx = "\\d{0,5}(\\.\\d{0,2})?"
         return NSPredicate(format: "SELF MATCHES %@", regx).evaluate(with: self)
     }
-    
-    
 
     
     

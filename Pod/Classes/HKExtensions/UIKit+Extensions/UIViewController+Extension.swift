@@ -373,7 +373,7 @@ extension UIViewController  {
         
     }
     
-    @objc public func hk_addClick(){
+    @objc open func hk_addClick(){
         
     }
     

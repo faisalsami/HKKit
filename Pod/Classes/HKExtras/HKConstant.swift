@@ -16,10 +16,10 @@ open class HKConstant:NSObject {
     public class var sharedInstance: HKConstant {
         return Singleton.sharedInstance
     }
-    public var MAIN_COLOR:UIColor = UIColor.black
-    public var MAIN_LOGO:String!
-    public var MAIN_URL:String = ""
     
 }
+public var MAIN_COLOR:UIColor = UIColor.black
+public var MAIN_LOGO:String!
+public var MAIN_URL:String = ""
 
 //}

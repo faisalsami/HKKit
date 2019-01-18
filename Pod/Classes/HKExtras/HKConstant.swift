@@ -8,12 +8,12 @@
 
 import Foundation
 import UIKit
-open class HKConstant:NSObject {
+class HKConstant:NSObject {
     struct Singleton {
         static let sharedInstance = HKConstant()
 
     }
-    public class var sharedInstance: HKConstant {
+    class var sharedInstance: HKConstant {
         return Singleton.sharedInstance
     }
     

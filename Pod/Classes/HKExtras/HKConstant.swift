@@ -8,19 +8,18 @@
 
 import Foundation
 import UIKit
-open class HKConstant:NSObject {
+class HKConstant:NSObject {
     struct Singleton {
         static let sharedInstance = HKConstant()
 
     }
-    public class var sharedInstance: HKConstant {
+    class var sharedInstance: HKConstant {
         return Singleton.sharedInstance
     }
-    public var main_color:UIColor = UIColor.black
-    public var main_logo:String!
-    public var main_url:String = ""
     
 }
-
+public var MAIN_COLOR:UIColor = UIColor.black
+public var MAIN_LOGO:String!
+public var MAIN_URL:String = ""
 
 //}
